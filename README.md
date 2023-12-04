@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Busque Carros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atividade com CRUD de carros.
 
-Currently, two official plugins are available:
+![Imagem do Projeto](https://github.com/jessica-sobreira/busque-carros/assets/117686537/acc36497-e1e9-4f5a-bc46-a6503a4daa40)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição
 
-## Expanding the ESLint configuration
+Este projeto é uma aplicação simples para buscar, adicionar, editar e remover informações sobre carros.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- Adicionar um novo carro com nome, cor e ano.
+- Editar as informações de um carro existente.
+- Remover um carro da lista.
+- Buscar carros pelo nome, ano e cor.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Tecnologias Utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React
+- Vite
+- TypeScript
+- CSS
+
+## Como Usar
+
+1. Clone este repositório.
+2. Instale as dependências usando `npm install`.
+3. Execute o aplicativo usando `npm run dev`.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests.
+
+## Autor
+
+Jéssica Sobreira - [GitHub](https://github.com/jessica-sobreira)
+
